@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.sql": "sqlite"
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "practice.db",
+            "name": "LocalDB"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
