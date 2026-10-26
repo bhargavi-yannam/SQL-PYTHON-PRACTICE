@@ -24,7 +24,8 @@ VALUES
     (11, 'Toy Story 3', 'Lee Unkrich', 2010, 103),
     (12, 'Cars 2', 'John Lasseter', 2011, 120),
     (13, 'Brave', 'Brenda Chapman', 2012, 102),
-    (14, 'Monsters University', 'Dan Scanlon', 2013, 110);
+    (14, 'Monsters University', 'Dan Scanlon', 2013, 110),
+    (87, 'WALL-G', 'Brenda Chapman', 2042, 97);
 
 SELECT * FROM Movies;
 
@@ -60,3 +61,7 @@ SELECT Title FROM Movies WHERE ReleaseYear NOT BETWEEN 2000 AND 2010;
 
 --Find the first 5 Pixar movies and their release year--
 SELECT Title,ReleaseYear FROM Movies ORDER BY ReleaseYear ASC LIMIT 5;
+
+
+
+
