@@ -60,4 +60,5 @@ SELECT DISTINCT Building_name,Employees.Role FROM Buildings
 LEFT JOIN Employees ON Buildings. Building_name = Employees.Building;
 
 
-
+----Find the name and role of all employees who have not been assigned to a building--
+SELECT Role,Name FROM Employees WHERE Building IS NULL;
